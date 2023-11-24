@@ -1,0 +1,7 @@
+{
+    "usingComponents": {
+        "rx-banners-top":"/components/rx-banners-top/rx-banners-top",
+        "rx-grid":"./childCpns/rx-grid/rx-grid",
+        "rx-product":"/components/rx-product/rx-product"
+    }
+}

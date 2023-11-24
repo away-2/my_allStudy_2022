@@ -1,0 +1,61 @@
+{
+    "description": "项目配置文件",
+    "packOptions": {
+        "ignore": [],
+        "include": []
+    },
+    "setting": {
+        "urlCheck": false,
+        "es6": true,
+        "postcss": true,
+        "minified": true,
+        "newFeature": true,
+        "autoAudits": false,
+        "checkInvalidKey": true,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        }
+    },
+    "compileType": "miniprogram",
+    "libVersion": "2.6.6",
+    "appid": "wx1177ea55b4997dd1",
+    "projectname": "minimall",
+    "simulatorType": "wechat",
+    "simulatorPluginLibVersion": {},
+    "condition": {
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "详情页编译",
+                    "pathName": "pages/detail/detail",
+                    "query": "iid=1m7c6iu",
+                    "scene": null
+                },
+                {
+                    "name": "分类编译",
+                    "pathName": "pages/category/category",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "我的编译",
+                    "pathName": "pages/profile/profile",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "购物车编译",
+                    "pathName": "pages/cart/cart",
+                    "query": "",
+                    "scene": null
+                }
+            ]
+        }
+    },
+    "editorSetting": {
+        "tabIndent": "insertSpaces",
+        "tabSize": 4
+    }
+}

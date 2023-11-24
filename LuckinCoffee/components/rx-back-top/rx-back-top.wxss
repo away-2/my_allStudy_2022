@@ -1,0 +1,10 @@
+/* components/rx-back-top/rx-back-top.wxss */
+.top {
+  position: fixed;
+  right: 40rpx;
+  bottom: 40rpx;
+  width: 80rpx; 
+  height: 80rpx;
+  /* background-color: rgba(98, 98, 98, 0.8)  */
+}
+  

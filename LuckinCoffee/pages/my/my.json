@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+       "rx-product":"/components/rx-product/rx-product"
+    }
+}

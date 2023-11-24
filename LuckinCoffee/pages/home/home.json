@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+      "rx__top":"./childCpns/rx__top/rx__top",
+      "rx__bd":"./childCpns/rx__bd/rx__bd",
+      "rx__fd":"./childCpns/rx__fd/rx__fd",
+      "rx-banners-top":"/components/rx-banners-top/rx-banners-top",
+      "rx__banners2":"./childCpns/rx__banners2/rx__banners2",
+      "rx-back-top":"/components/rx-back-top/rx-back-top"
+  }
+}

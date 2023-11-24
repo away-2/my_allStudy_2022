@@ -1,0 +1,56 @@
+<!--pages/shop/childCpns/rx__grid.wxml-->
+<view class="rx_grid">
+  <view class="rx_grid_item">
+    <view class="rx_item">
+      <image src="/images/dgkf.webp" class="image" />
+      <view class="conent">冻干咖啡</view>
+    </view>
+    <view class="rx_item">
+      <image src="/images/grkf.webp" class="image" />
+      <view class="conent">挂耳咖啡</view>
+    </view>
+    <view class="rx_item">
+      <image src="/images/kfcy.webp" class="image" />
+      <view class="conent">咖啡萃液</view>
+    </view>
+    <view class="rx_item">
+      <image src="/images/grkf.webp" class="image" />
+      <view class="conent">咖啡豆</view>
+    </view>
+    <view class="rx_item">
+      <image src="/images/dgkf.webp" class="image" />
+      <view class="conent">咖啡周边</view>
+    </view>
+  </view>
+</view>
+
+<view class="rx__bdfl">
+  <view class="fl_top">
+    <view class="text">福利中心</view>
+    <view class="condition">查看全部</view>
+  </view>
+  <view class="fl_bottom">
+    <scroll-view scroll-x="true">
+      <view class="fl">
+        <view class="text">超值省钱券包</view>
+        <view class="condition">0.9元购69元券包</view>
+      </view>
+      <view class="fl">
+        <view class="text">#喝咖啡挑战</view>
+        <view class="condition">再喝1单达成</view>
+      </view>
+      <view class="fl">
+        <view class="text">本月咖啡星人</view>
+        <view class="condition">马上冲榜</view>
+      </view>
+      <view class="fl">
+        <view class="text">lucky送福利</view>
+        <view class="condition">领4.8折券</view>
+      </view>
+      <view class="fl">
+        <view class="text">邀请好友</view>
+        <view class="condition">每邀1位好友各得20元</view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

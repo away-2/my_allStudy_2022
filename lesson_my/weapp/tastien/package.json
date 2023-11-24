@@ -1,0 +1,23 @@
+{
+  "name": "tastien",
+  "version": "1.0.0",
+  "description": "- 本项目归塔斯汀所有， 只做学习所用 ， 请尊重原厂版权\r - 可以去监听访问数据  fiddler  抓包工具抓取数据\r - \r - 界面模仿采用markman做标记\r   1. 无设计稿，如何1：1还原小程序？\r   2. 拍平得到小程序截图\r   3. 使用在线大小[转换工具](https://www.gaitubao.com/)，将图片改成750\r     以后写项目时，直接可量像素， 因为小程序以750rpx作为\r     设计稿标准大小帮我们自动适配，很好用\r   4. 使用[markman](http://www.getmarkman.com/)先标注， 再写样式",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/away-2/tastine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/away-2/tastine/issues"
+  },
+  "homepage": "https://github.com/away-2/tastine#readme",
+  "dependencies": {
+    "@vant/weapp": "^1.10.8"
+  }
+}

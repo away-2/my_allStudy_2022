@@ -1,0 +1,15 @@
+
+<view class="rx__scroll_button">
+<van-grid column-num="2" class="scroll_button">
+    <van-grid-item use-slot class="scroll_button_item"
+    wx:key="id"
+    wx:for="{{goods}}"
+    bind:tap="onClick"
+    >  
+    <image class="image" src="{{item.pic}}"/>
+    <view class="title">{{item.title}}</view>
+    <view class="price">{{item.price}}</view>
+    <view class="sell">{{item.sell}}</view>
+    </van-grid-item>
+</van-grid>
+</view>

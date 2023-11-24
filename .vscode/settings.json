@@ -1,0 +1,6 @@
+{
+    "liveServer.settings.port": 5501,
+    "vetur.validation.template": true,
+    "git.ignoreLimitWarning": true,
+    "editor.mouseWheelZoom": true
+}

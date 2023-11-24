@@ -1,0 +1,24 @@
+<view class="rx__scroll_top">
+    <van-tabs 
+    animated 
+    active="{{active}}" 
+    color="blue"
+    swipeable 
+    sticky 
+    title-inactive-color="#ccc" 
+    title-active-color="#000000">
+        <van-tab title="年货节">
+            <rx-product />
+        </van-tab>
+        <van-tab title="颜值水杯">
+            <rx-product />
+        </van-tab>
+        <van-tab title="家具日用">
+            <rx-product />
+        </van-tab>
+        <van-tab title="冲调零食">
+            <rx-product />
+        </van-tab>
+        <van-tab title="更多>" style="height: 700px;">加载中...</van-tab>
+    </van-tabs>
+</view>

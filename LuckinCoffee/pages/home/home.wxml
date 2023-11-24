@@ -1,0 +1,83 @@
+<scroll-view scroll-y 
+bindscroll="scrolltoupper" 
+scroll-with-animation="true" 
+>
+<!-- 首页顶部广告位 -->
+    <rx-banners-top></rx-banners-top>
+<!-- 首页 -->
+    <rx__top></rx__top> 
+<!-- 首页中部广告位 -->
+    <rx__banners2></rx__banners2>
+<!-- 首页中部今日特惠及福利中心 -->
+    <rx__bd></rx__bd>
+<!-- 首页商品详情页 -->
+    <rx__fd></rx__fd>
+    <rx-back-top  bind:tap="goTop" wx:if="{{up_show}}"></rx-back-top>
+    </scroll-view>
+    <!-- 一键回到顶部 -->
+<!-- <image class='top' catchtap='goTop' src='{{ icoSrc }}'></image> -->
+        <!-- <view class="rx__fd">
+<view class="rx__scroll_top">
+<van-tabs animated
+  active="{{active}}"
+   color="blue" swipeable sticky
+   title-inactive-color="#ccc"
+   title-active-color="#000000"
+>
+<van-tab title="年货节"><view class="rx__scroll_button">
+<van-grid column-num="2" class="scroll_button">
+    <van-grid-item use-slot class="scroll_button_item"
+    wx:key="id"
+    wx:for="{{goods}}"
+    >  
+    <image class="goods" src="{{item.pic}}"/>
+    <view class="title">{{item.title}}</view>
+    <view class="price">{{item.price}}</view>
+    <view class="sell">{{item.sell}}</view>
+    </van-grid-item>
+</van-grid>
+</view>
+</van-tab>
+<van-tab title="颜值水杯"><view class="rx__scroll_button">
+<van-grid column-num="2" class="scroll_button">
+    <van-grid-item use-slot class="scroll_button_item"
+    wx:key="id"
+    wx:for="{{goods}}"
+    >  
+    <image class="goods" src="{{item.pic}}"/>
+    <view class="title">{{item.title}}</view>
+    <view class="price">{{item.price}}</view>
+    <view class="sell">{{item.sell}}</view>
+    </van-grid-item>
+</van-grid>
+</view></van-tab>
+<van-tab title="家具日用"><view class="rx__scroll_button">
+<van-grid column-num="2" class="scroll_button">
+    <van-grid-item use-slot class="scroll_button_item"
+    wx:key="id"
+    wx:for="{{goods}}"
+    >  
+    <image class="goods" src="{{item.pic}}"/>
+    <view class="title">{{item.title}}</view>
+    <view class="price">{{item.price}}</view>
+    <view class="sell">{{item.sell}}</view>
+    </van-grid-item>
+</van-grid>
+</view></van-tab>
+<van-tab title="冲调零食"><view class="rx__scroll_button">
+<van-grid column-num="2" class="scroll_button">
+    <van-grid-item use-slot class="scroll_button_item"
+    wx:key="id"
+    wx:for="{{goods}}"
+    >  
+    <image class="goods" src="{{item.pic}}"/>
+    <view class="title">{{item.title}}</view>
+    <view class="price">{{item.price}}</view>
+    <view class="sell">{{item.sell}}</view>
+    </van-grid-item>
+</van-grid>
+</view></van-tab>
+<van-tab title="更多>">加载中...</van-tab>
+</van-tabs>
+</view>
+</view>-->

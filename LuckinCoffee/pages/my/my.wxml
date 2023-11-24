@@ -1,0 +1,77 @@
+<!--pages/my/my.wxml-->
+<view class="header_bg">
+    <image src="https://static.luckincoffeecdn.com/mini/images/center/header_bg.png_.webp" />
+</view>
+<view class="header_top">
+    <view class="header_touxiang">
+        <image src="/images/touxiang.jpg" mode="" />
+    </view>
+    <view class="header_login"> 登录/注册></view>
+</view>
+<view class="header_buttom">
+    <view class="text">欢迎~Luckin新朋友</view>
+    <view class="dengji">0</view>
+    <view class="title">去喝一杯，加入Luckin></view>
+    <view class="jindutiao"></view>
+</view>
+<view class="body_icon">
+    <view class="body_icon_item">
+        <view class="icon">
+            <image src="/images/wddd.webp" mode="" />
+            <view class="text">我的订单</view>
+        </view>
+        <view class="icon">
+            <image src="/images/kfqb.webp" mode="" />
+            <view class="text">咖啡钱包</view>
+        </view>
+        <view class="icon">
+            <image src="/images/yhq.webp" mode="" />
+            <view class="text">优惠券</view>
+        </view>
+        <view class="icon">
+            <image src="/images/lpk.webp" mode="" />
+            <view class="text">礼品卡</view>
+        </view>
+        <view class="icon">
+            <image src="/images/zhye.webp" mode="" />
+            <view class="text">账户余额</view>
+        </view>
+      
+        </view>
+        <view class="body_icon_item">
+        <view class="icon">
+            <image src="/images/fpgl.webp" mode="" />
+            <view class="text">发票管理</view>
+        </view>
+        <view class="icon">
+            <image src="/images/dhyh.webp" mode="" />
+            <view class="text">兑换优惠</view>
+        </view>
+        <view class="icon">
+            <image src="/images/bzfk.webp" mode="" />
+            <view class="text">帮助反馈</view>
+        </view>
+        <view class="icon">
+            <image src="/images/zsjm.webp" mode="" />
+            <view class="text">招商加盟</view>
+        </view>
+        <view class="icon">
+            <image src="/images/kwdz.webp" mode="" />
+            <view class="text">口味定制</view>
+        </view>
+    </view>
+</view>
+<view class="footer_swiper">
+<swiper>
+    <swiper-item>
+        <image src="https://img05.luckincoffeecdn.com/group2/M00/8C/92/CtwiPWP8THSAYk37AAJn0enlEQo648.jpg_.webp" mode=""/>
+    </swiper-item>
+    <swiper-item>
+        <image src="https://img03.luckincoffeecdn.com/group1/M00/D5/33/CtwhA2ReMf2AG55wAAKVxyBNsgo557.jpg_.webp" mode=""/>
+    </swiper-item>
+</swiper>
+</view>
+<view class="rx_footer">
+<view class="title">猜你喜欢❤️</view>
+<rx-product></rx-product>
+</view>

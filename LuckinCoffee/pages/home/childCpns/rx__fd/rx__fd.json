@@ -1,0 +1,10 @@
+{
+    "component": true,
+    "usingComponents": {
+        "van-tab": "/miniprogram_npm/@vant/weapp/tab",
+        "van-tabs": "/miniprogram_npm/@vant/weapp/tabs",
+        "van-grid":"/miniprogram_npm/@vant/weapp/grid",
+        "van-grid-item":"/miniprogram_npm/@vant/weapp/grid-item",
+        "rx-product":"/components/rx-product/rx-product"
+    }
+}

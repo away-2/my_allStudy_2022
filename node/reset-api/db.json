@@ -1,0 +1,27 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "title": "双向通信的websocket协议"
+    },
+    {
+      "title": "websocket 聊天室",
+      "author": "zzy",
+      "id": 3
+    },
+    {
+      "title": "双向通信的websocket",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "title": "websocket 聊天室",
+      "author": "zzy",
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

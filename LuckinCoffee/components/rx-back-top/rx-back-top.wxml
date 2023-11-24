@@ -1,0 +1,2 @@
+<!--components/rx-back-top/rx-back-top.wxml-->
+<image class="top"  src="/images/toup.png"></image>
